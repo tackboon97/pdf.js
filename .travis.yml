@@ -12,3 +12,6 @@ install:
   - npm update
   - gulp lint
   - gulp test
+
+after_script:
+  -npm run coveralls
