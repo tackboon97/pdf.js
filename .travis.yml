@@ -4,10 +4,15 @@ node_js:
 cache:
   directories:
     - node_modules
+
+before install:
+  - npm run coveralls
+  - npm install -g istanbul
+
 install:
   - npm install -g npm@latest
   - npm install -g gulp-cli
   - npm install
   - npm update
-  - gulp lint  
+  - gulp lint
   - gulp test
