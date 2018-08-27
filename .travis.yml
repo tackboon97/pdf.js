@@ -12,7 +12,3 @@ install:
   - npm update
   - gulp lint
   - gulp test
-
-after scripts:
-  - npm run coveralls
-  - npm install -g istanbul

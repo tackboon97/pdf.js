@@ -30,8 +30,8 @@ import { PDFPageView } from './pdf_page_view.js';
 import { PDFSinglePageViewer } from './pdf_single_page_viewer';
 import { PDFViewer } from './pdf_viewer.js';
 
-//const pdfjsVersion = PDFJSDev.eval('BUNDLE_VERSION');
-//const pdfjsBuild = PDFJSDev.eval('BUNDLE_BUILD');
+const pdfjsVersion = PDFJSDev.eval('BUNDLE_VERSION');
+const pdfjsBuild = PDFJSDev.eval('BUNDLE_BUILD');
 
 export {
   PDFViewer,
