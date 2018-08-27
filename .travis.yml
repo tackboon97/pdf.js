@@ -9,4 +9,8 @@ install:
   - npm install -g gulp-cli
   - npm install
   - npm update
-  - npm run test
+  - load
+  - eq
+  - text
+  - annotations
+  - fbf
