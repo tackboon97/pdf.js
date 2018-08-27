@@ -38,7 +38,7 @@ exports.parseAdobeCMap = function (content) {
   var re = /(\d+)\s+(begincodespacerange|beginnotdefrange|begincidchar|begincidrange|beginbfchar|beginbfrange)\n([\s\S]*?)\n(endcodespacerange|endnotdefrange|endcidchar|endcidrange|endbfchar|endbfrange)/g;
   while (m = re.exec(body)) {
     var lines = m[3].toLowerCase().split('\n');
-    var m2;
+    //var m2;
     switch (m[2]) {
       case 'begincodespacerange':
         result.body.push({
