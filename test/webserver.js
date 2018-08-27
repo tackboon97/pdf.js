@@ -15,7 +15,7 @@
  */
 /* eslint-disable object-shorthand */
 
-// 'use strict';
+'use strict';
 
 var http = require('http');
 var path = require('path');
