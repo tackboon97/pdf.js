@@ -73,7 +73,7 @@ WebServer.prototype = {
       // .address().port being available synchronously is merely an
       // implementation detail. So we are defensive here and fall back to some
       // fixed port when the address is not available yet.
-      this.port = address ? address.port : 8000;
+      this.port = address ? address.port : 7000;
       server.close();
     }
   },
