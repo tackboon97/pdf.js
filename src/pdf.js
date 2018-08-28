@@ -21,8 +21,8 @@ var pdfjsVersion =
 var pdfjsBuild =
   typeof PDFJSDev !== 'undefined' ? PDFJSDev.eval('BUNDLE_BUILD') : void 0;
 
-var pdfjsSharedUtil = require('./shared/util.js');
-var pdfjsDisplayAPI = require('./display/api.js');
+var pdfjsSharedUtil = require('./shared/util');
+var pdfjsDisplayAPI = require('./display/api.j');
 var pdfjsDisplayTextLayer = require('./display/text_layer.js');
 var pdfjsDisplayAnnotationLayer = require('./display/annotation_layer.js');
 var pdfjsDisplayDOMUtils = require('./display/dom_utils.js');
